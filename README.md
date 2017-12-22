@@ -6,7 +6,7 @@ ROS_cheat_sheet
 [nice video](https://www.youtube.com/watch?v=7QgjR6m-0KM)
 
 ```
-source opt/ros/kinetic/setup.bash
+source /opt/ros/kinetic/setup.bash
 ```
 
 make directory, first build
