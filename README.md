@@ -20,8 +20,8 @@ catkin_make
 New folder are created. Check with:
 ```
 ls
-```
-build: where executables will be located
+``` 
+build: where executables will be located 
 devel: setup files and environments stuff
 
 set new workspace path
