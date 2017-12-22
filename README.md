@@ -59,4 +59,13 @@ save the file
 
 #### create package with `catkin_create_pkg`
 ```
+cd ~/new_workspace_ws/src/
 catkin_create_pkg new_package dependend_package1 dependend_package2
+```
+
+### Finally, make package
+```
+catkin_make
+```
+
+
