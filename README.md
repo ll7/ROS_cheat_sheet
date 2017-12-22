@@ -2,6 +2,7 @@
 ROS_cheat_sheet
 
 ## Create a new workspace
+[ros.org: create a workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 
 make directory, first build
 ```
