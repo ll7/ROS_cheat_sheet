@@ -2,7 +2,7 @@
 ROS_cheat_sheet
 
 ### Create a new workspace with catkin_make
-[ros.org: create a workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+[ros.org: create a workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)  
 [nice video](https://www.youtube.com/watch?v=7QgjR6m-0KM)
 
 ```
@@ -37,7 +37,7 @@ check current workspace directory
 echo $ROS_PACKAGE_PATH
 ```
 
-#### create package
+#### create package by hand
 ```
 cd ~/new_workspace_ws/src
 mkdir new_package
@@ -53,3 +53,6 @@ project(package_demo)
 
 find_package(catkin REQUIRED COMPONENTS)
 ```
+save the file
+
+#### create package with `catkin_create_pkg`
