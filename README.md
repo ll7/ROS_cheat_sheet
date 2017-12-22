@@ -72,3 +72,13 @@ catkin_make
 [QT Creater Plugin](https://ros-industrial.github.io/ros_qtc_plugin/index.html)  
 [yt video](https://www.youtube.com/watch?v=MPovFrZloaY&index=2&list=PL4p99tXbgB8_ajY8p6TRZx1gqhp5pRMB-)  
 
+A few things have changed comparing this video and the recent version of QT Creater (2017/12).  
+
+New Project > Other Projects > ROS Workspace
+
+Name: your new sub workspace
+Workspace Path: your old parent workspace  
+
+Furthermore, you can't add empty folders, somehow...
+Workorund. Start console in your new package, create the first line of whatever file you are going to create in the src subfolder of the package. Then, continue your work in QT :;):
+
