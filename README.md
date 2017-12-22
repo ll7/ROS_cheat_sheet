@@ -42,5 +42,14 @@ echo $ROS_PACKAGE_PATH
 cd ~/new_workspace_ws/src
 mkdir new_package
 cd new_package/
-gedit CMakeLists.txt
+nano CMakeLists.txt
+```
+Use your favourite terminal text editor.  
+Paste:
+
+```
+cmake_minimum_require(VERSION 2.8.3)
+project(package_demo)
+
+find_package(catkin REQUIRED COMPONENTS)
 ```
