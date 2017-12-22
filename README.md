@@ -80,5 +80,5 @@ Name: your new sub workspace
 Workspace Path: your old parent workspace  
 
 Furthermore, you can't add empty folders, somehow...
-Workorund. Start console in your new package, create the first line of whatever file you are going to create in the src subfolder of the package. Then, continue your work in QT :;):
+Workorund. Start console in your new package, create the first line of whatever file you are going to create in the src subfolder of the package. Then, continue your work in QT :;-):
 
