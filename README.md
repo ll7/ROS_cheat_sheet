@@ -1,7 +1,7 @@
 # ROS_cheat_sheet
 ROS_cheat_sheet
 
-## Create a new workspace with catkin_make
+### Create a new workspace with catkin_make
 [ros.org: create a workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 [nice video](https://www.youtube.com/watch?v=7QgjR6m-0KM)
 
@@ -24,15 +24,23 @@ ls
 build: where executables will be located  
 devel: setup files and environments stuff
 
-set new workspace path
 ```
-export ROS_PACKAGE_PATH=~/new_workspace_ws/:/opt/ros/kinetic/share
+echo ${ROS_PACKAGE_PATH}
+source devel/setup.bash
+```
+update package path:
+```
+echo ${ROS_PACKAGE_PATH} ~/new_workspace_ws/src:/opt/ros/kinetic/share
 ```
 check current workspace directory
 ```
 echo $ROS_PACKAGE_PATH
 ```
-soruce setup file
+
+#### create package
 ```
-source devel/setup.bash
+cd ~/new_workspace_ws/src
+mkdir new_package
+cd new_package/
+gedit CMakeLists.txt
 ```
