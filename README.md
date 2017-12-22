@@ -36,7 +36,9 @@ check current workspace directory
 ```
 echo $ROS_PACKAGE_PATH
 ```
-
+### 2 ways to create package
+1. by hand  
+2. `catkin_create_pkg` (recommended)
 #### create package by hand
 ```
 cd ~/new_workspace_ws/src
