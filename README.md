@@ -69,9 +69,11 @@ cd ~/new_workspace_ws/
 catkin_make
 ```
 ## Create a new node with python
-Create the new node `new_node.py` in your src folder of your new package.  
+Create the new node `new_node.py` in a new folder `new_folder` of your new_package, but not in the src foulder of the new package.  
+Create a new Pythone node in this folder with your favourite python editor. (spyder2)
 Make the new node executable:
 ```
+cd ~/new_workspace_ws/src/new_package/new_folder/
 chmod +x new_node.py
 ```
 ## QT Creater Plugin
