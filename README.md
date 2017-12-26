@@ -68,7 +68,12 @@ catkin_create_pkg new_package dependend_package1 dependend_package2
 cd ~/new_workspace_ws/
 catkin_make
 ```
-
+## Create a new node with python
+Create the new node `new_node.py` in your src folder of your new package.  
+Make the new node executable:
+```
+chmod +x talker.py
+```
 ## QT Creater Plugin
 [QT Creater Plugin](https://ros-industrial.github.io/ros_qtc_plugin/index.html)  
 [yt video](https://www.youtube.com/watch?v=MPovFrZloaY&index=2&list=PL4p99tXbgB8_ajY8p6TRZx1gqhp5pRMB-)  
