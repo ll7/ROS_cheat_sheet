@@ -72,7 +72,7 @@ catkin_make
 Create the new node `new_node.py` in your src folder of your new package.  
 Make the new node executable:
 ```
-chmod +x talker.py
+chmod +x new_node.py
 ```
 ## QT Creater Plugin
 [QT Creater Plugin](https://ros-industrial.github.io/ros_qtc_plugin/index.html)  
