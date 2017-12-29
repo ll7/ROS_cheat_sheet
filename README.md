@@ -17,6 +17,11 @@ catkin_init_worksapce
 cd ..
 catkin_make
 ```
+#####source the new workspace   
+```
+source ~/new_workspace_ws/devel/setup.bash
+echo “source ~/new_workspace_ws/devel/setup.bash” >> ~/.bashrc
+```
 New folder are created. Check with:
 ```
 ls
